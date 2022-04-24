@@ -2,7 +2,6 @@
 
 # Requisito
 # Descrição do projeto
-  O sistema possui dois tipos de usuários
 # Comentários sobre o código
 # Plano de testes
 # Resultados dos testes
