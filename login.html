@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content = "width=device-width">
+  <title>Pet Shop Login</title>
+  <link href = "style.css" rel = "stylesheet" type = "text/css" />
+</head>
+
+<body style="background-color: #ECECEC;">
+    <div class = "conteudo">
+        <!--Barra Menu-->
+        <div class = "menu">
+            <a href = "home.html"><img src = "img\logo.png" height = "34px" width = "151px" style = "margin: 2% 120px;"/></a>
+        </div>
+
+        <!--Pagina Login-->
+        <div class="divLogin">
+            <div class = "divformLogin">
+                <form name="formLogin" class = "formLogin">
+                    <div class="row">
+                        <div class="col-login">
+                            <input type="email" id="emailid" placeholder="Digite seu email*" required="required" name="email" class = "textAreaLogin"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-login">
+                            <input type="password" id="password" placeholder="Digite sua senha*" required="required" name="password" class = "textAreaLogin inputsenha"></input>
+                            <img src = "img\eye.svg" alt = "mostrarsenha" class = "mostrarSenha"></img>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-login">
+                            <button type="button" class = "buttonEntrar" onclick="VerificarAdm()">ENTRAR</button>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 10px;">
+                        <span>
+                            Não tem conta?
+                        </span>
+                        <a class="txtCriarConta" href="cadastro.html">
+                            Crie uma agora!
+                        </a>
+                    </div>
+                </form>
+            </div>
+            <div class = "imgLogin">
+                <img src = "img\image 10.png" alt = "CachorroLogin"></img>
+            </div>
+        </div>
+    </div>
+    <script src = "script.js"></script>
+</body>
+
+</html>

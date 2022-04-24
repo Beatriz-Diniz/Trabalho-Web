@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content = "width=device-width">
+  <title>Pet Shop</title>
+  <link href = "style.css" rel = "stylesheet" type = "text/css" />
+</head>
+
+<body>
+    <script src = "script.js"></script>
+    <div class = "conteudo">
+        <!--Barra Menu-->
+        <div class = "menu">
+            <ul class="nav">
+                <li><a href = "#na"><img src = "img\logo.png" height = "34px" width = "151px"/></a></li>
+                <li><a href = "#nb">Home</a></li>
+                <li><a href = "#nc">Cachorro</a></li>
+                <li><a href = "#nd">Gato</a></li>
+                <li><a href = "#ne">Pássaros</a></li>
+                <li><a href = #nf">Peixes</a></li>
+            </ul>
+        </div>
+    
+        <!--Barra Pesquisa-->
+        <div class = "menuPesquisa">
+            <ul class="nav1">
+                <li><a href = "#ng">
+                    <button id = "btnBusca"> <img src = "img\search.png" alt = "Buscar..." height = "36px" width = "36px"/></button>
+                    <input  style="border: 2px solid rgba(0, 0, 0, 0.71); border-radius: 3px;" typ e= "text" id = "txtBusca" placeholder = "O que seu pet precisa...."/>
+                </a></li>
+                <li><a href = "#nh" style = "margin-left: 370px; margin-right: 30px;"><img src = "img\shopping-cart 1.png"/></a></li>
+                <li><a href = "login.html">Entrar|Cadastrar</a></li>
+            </ul>
+            
+        </div>
+        
+        <!--Banner-->
+        <div class = "slider">
+            <div class = "slides">
+                <!--Configurar ordem imagens-->
+                <input type = "radio" name = "radio-btn" id = "radio1">
+                <input type = "radio" name = "radio-btn" id = "radio2">
+                <input type = "radio" name = "radio-btn" id = "radio3">
+                
+                <!--colocar imagens no banner-->
+                <div class = "slide first">
+                    <img src = "img\banner 1.png" alt = "banner 1">
+                </div>
+                <div class = "slide">
+                    <img src = "img\banner 2.png" alt = "banner 2">
+                </div>
+                <div class = "slide">
+                    <img src = "img\banner 3.png" alt = "banner 3">
+                </div>
+            </div>
+        </div>
+
+        <!--Barra Anucios-->
+        <div class = "barraAnuncio">
+            <ul class = "anucio">
+                <li> <img src = "img\fretegratis.png" alt = "frete"></li>
+                <li> <img src = "img\cartao.png" alt = "cartao"></li>
+                <li> <img src = "img\entrega.png" alt = "entrega"></li>
+            </ul>
+        </div>
+
+        <!--Div Pets-->
+        <div class = "pets">
+            <img src = "img\pets.png" alt = "pets">
+            <ul class = "imagemPet">
+                <li> <img src = "img\cao 1.png" alt = "cao">
+                    <ul class = "botaoPet">
+                        <li><a href = "#nj">Cachorros</a></li>
+                    </ul>
+                </li>
+                <li> <img src = "img\gato 1.png" alt = "gato">
+                    <ul class = "botaoPet">
+                        <li><a href = "#nj">Gatos</a></li>
+                    </ul>
+                </li>
+                <li> <img src = "img\bird 1.png" alt = "bird">
+                    <ul class = "botaoPet">
+                        <li><a href = "#nj">Passáros</a></li>
+                    </ul>
+                </li>
+                <li> <img src = "img\fish 1.png" alt = "fish">
+                    <ul class = "botaoPet">
+                        <li><a href = "#nj">Peixes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!--Div Contato-->
+        <div class = "contato">
+            <div class = "imgContato">
+                <img src = "img\gatotexto.png" alt = "gato+texto" style="width:100%;">
+            </div>
+            <!--Div para conseguir empurrar o form para baixo sem ter que usar o margin-top-->
+            <div style="height: 1px; margin-top: 200px;">
+
+            </div>
+            <div class = "divForm">
+                <form name="formContato" class = "formContato">
+                    <div class="row">
+                      <div class="col-75">
+                        <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" class = "inputTextArea"/>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-75">
+                        <input type="text" id="emailid" placeholder="E-mail" required="required" name="email" class = "inputTextArea"/>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-75">
+                            <input type="text" id="foneid" placeholder="Telefone" name="fone" class = "inputTextArea"/>
+                        </div>
+                      </div>
+                    
+                    <div class="row">
+                      <div class="col-75">
+                        <textarea placeholder="Assunto..." class = "formtextarea"></textarea>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                        <input type="submit" class="enviar" onclick="Enviar()" value="Enviar" class = "inputTextArea"/>
+                    </div>
+                  </form>
+            </div>
+        </div>
+
+        <!--Rodape-->
+        <div class = "rodape">
+            <img src = "img\rodape.png" alt = "rodap" class = "rodapeImg">
+        </div>
+    </div>
+    
+</body>
+
+</html>

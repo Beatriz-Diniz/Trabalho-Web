@@ -1,0 +1,538 @@
+*{
+    font-family: 'Roboto';
+    font-style: normal;
+    height: auto;
+    font-size: 25px;
+    line-height: 29px;
+}
+body{ 
+    margin:0; 
+    padding:0; 
+}
+
+.conteudo {
+    margin: 0px;
+    left: 0px;
+    top: 0px; 
+    width: 100%;
+}
+
+/*Barra Superior*/
+.menu{
+    min-height: 100px;
+    background: #0DA3B4;
+
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+ul.nav { 
+    margin: auto;
+}
+	
+ul.nav li {
+	list-style: none;	
+	display: inline-block;
+    margin: 2% 5%;
+}
+
+ul.nav li a {
+    
+    background:none; 
+    border:none;
+    
+    font-weight: 900;
+    color: #FFFFFF;
+    text-decoration:none;
+    vertical-align: middle;
+}
+
+ul.nav a:hover{
+	background:#9ac2c6;
+}
+
+/*Barra inferior*/
+.menuPesquisa{
+    min-height: 117px;
+    background: rgba(13, 163, 180, 8%);
+
+    font-weight: 900;
+}
+
+ul.nav1 { 
+    margin: auto;
+    padding: 2% 0;
+}
+	
+ul.nav1 li {
+	list-style: none;	
+	display: inline;
+    padding-left: 5px;
+}
+
+ul.nav1 li a {
+    background: none; 
+    border: none;
+    
+    font-weight: 900;
+    text-decoration:none;
+    color: #3F3F3E;
+}
+
+ul.nav1 a:hover{
+	background:#9ac2c665;
+}
+
+#txtBusca{
+    max-width: 750px;
+    height: 60px;
+    float:left;
+    width: 80%;
+    background-color:transparent;
+    border:none;
+    margin-top: 0 auto;
+    margin-left: 5px;
+}
+  
+#btnBusca{
+    list-style: none;	
+	display: inline;
+    background: none; 
+    border: none;
+    float: left;
+    margin-top: 12px;
+    margin-left: 24px;
+}
+
+#btnBusca :hover{
+    background:#9ac2c6;
+}
+
+/*Banner*/
+.slider{
+    width: 100%;
+    max-height: 576px;
+    overflow: hidden;
+}
+  
+.slides{
+    width: 500%;
+    max-height: 576px;
+    display: flex;
+}
+  
+.slides input{
+    display: none;
+}
+  
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+  
+/*tamanho imagem*/
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+  
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+  
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+  
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+/*Barra Anuncioa*/
+.barraAnuncio{
+    width: 100%;
+    min-height: 167px;
+    background: rgba(196, 196, 196, 0.19);
+    text-align: center;
+}
+
+ul.anucio {
+    margin: auto;
+}
+
+ul.anucio li{
+    list-style: none;	
+	display: inline-block;
+    margin: 3% 1%;
+}
+
+/*div pets*/
+.pets{
+    width: 100%;
+    min-height: 510px;
+    text-align: center;
+}
+
+.pets img{
+    margin: auto;
+    margin-top: 62px;
+    
+}
+
+ul.imagemPet{
+    margin-top: 100px;
+}
+
+ul.imagemPet li{
+    list-style:none;	
+	display: inline-block;
+    margin: 0 1%;
+}
+
+ul.botaoPet{
+    margin-top: 2px;
+}
+
+ul.botaoPet li{
+    list-style:none;	
+	width: 200px;
+    height: 48px;
+    background: #F89B1A;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+ul.botaoPet li a{
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+    text-decoration:none;
+    line-height: 48px; 
+    
+}
+
+/*Div Contato*/
+.contato{
+    min-height: 690px;
+    height: auto;
+    background-color: #0DA3B4;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: -7px;
+}
+
+.imgContato{
+    max-width: 465px;
+    width: auto;
+    float: left;
+    margin-top: 100px;
+    margin-left: 119px;
+    margin-bottom: -7px;
+}
+
+.inputTextArea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(255, 255, 255);
+    height: 30px;
+    
+    border-radius: 15px;
+    resize: vertical;
+}
+
+.formtextarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(255, 255, 255);
+    height: auto;
+    max-height: 235px;
+    
+    border-radius: 15px;
+    resize: vertical;
+}  
+
+  
+.enviar {
+    background: #F89B1A;
+    border-radius: 20px;
+
+    font-family: 'Cabin';
+
+    text-align: center;
+
+    color: #FFFFFF;
+    padding: 12px 20px;
+    cursor: pointer;
+    float: right;
+}
+  
+input[type=submit]:hover {
+    background-color: #459ba0cb;
+}
+  
+.divForm {
+    float: right;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 800px;
+    padding-right: 118px;
+    margin-right: 70px;
+    margin-top: -10px;
+}
+  
+
+.col-75 {
+    float: left;
+    width: 600px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+@media screen and (max-width: 800px) {
+    .col-75, .inputTextArea {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
+.rodape{
+    height: auto;
+    min-height: 337px;
+    background-color: #F89B1A;
+    text-align: center;
+}
+
+.rodapeImg{
+    margin: 4.5% 0;
+    width:100%; 
+    max-width: 354px;
+}
+
+@media screen and (width: 100%) {
+    .menu,
+    .menuPesquisa,
+    .slider,
+    .barraAnuncio, 
+    .pets,
+    .contato,
+    .rodape {
+        width: 100%;
+    }
+}
+
+
+/*Area de Login*/
+.divLogin {
+    max-width: 1011px;
+    min-height: 540px;
+    height: auto;
+
+    background: #FFFFFF;
+    border-radius: 42px;
+    margin: 4% auto;
+}
+
+.divformLogin{
+    float: left;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 800px;
+    margin-left: 70px;
+    margin-top: 150px;
+}
+
+.col-login{
+    float: left;
+    width: 500px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.textAreaLogin{
+    width: 90%;
+    padding: 12px;
+    height: 60px;
+
+    border: 1px solid rgba(0, 0, 0, 0.71);
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.mostrarSenha{
+    display:inline-block;
+    cursor: pointer;
+    margin-left: -50px;
+}
+
+.inputsenha{
+    margin: 0;
+}
+
+.buttonEntrar{
+    margin-top: 20px;
+    width: 90%;
+    padding: 12px;
+    height: 60px;
+    background: #F89B1A;
+    border-radius: 3px;
+    font-weight: 900;
+
+    color: #FFFFFF;
+}
+
+.buttonVoltar{
+    width: 90%;
+    padding: 12px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 3px;
+    border: 2px solid #F89B1A;
+    font-weight: 900;
+}
+
+.voltar{
+    text-decoration:none;
+    color: #F89B1A;
+}
+
+.txtCriarConta{
+    text-decoration: none;
+    color:#F89B1A;
+    font-weight: 700;
+}
+
+.imgLogin{
+    padding-top: 50px;
+    margin: 0 2%;
+}
+
+/*Area Cadastro*/
+.divCadastro {
+    max-width: 1011px;
+    min-height: 840px;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 42px;
+    margin: 4% auto;
+}
+
+.divformCadastro{
+    float: left;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 1000px;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;    
+    height: auto;
+}
+
+.textAreaCadastro{
+    width: 44.5%;
+    padding: 12px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.71);
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-right: 5px;
+    resize: vertical;
+}
+
+/*Dados Adm*/
+.divLoginAdmnistrador{
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+    display: table;
+}
+
+.divSairConta{
+    width: auto;
+}
+
+.divSairConta a{
+    margin-right: 100px;
+    margin-top: 30px;
+    float: right;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    text-decoration: none;
+    color: #0DA3B4;
+}
+
+.menusAdm{
+    float: left;
+    max-width: 400px;
+    height: auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 50px;
+    color: #3f3f3f;
+}
+
+.textAdm{
+    float: left;
+    margin-top: 50px;
+    max-width: 800px;
+}
+
+.formDadosAdm{
+    margin-top: 20px;
+    float: left;
+    border: 1px solid #B7B7B7;
+    box-sizing: border-box;
+    border-radius: 34px;
+    padding: 20px;
+    max-width: 900px;
+    width: auto;    
+}
+
+.menuAdmImg{
+    margin-top: 10px;
+}
+
+.col-DadosAdm{
+    width: 900px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 1000px) {
+    .col-DadosAdm {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
+.editar{
+    width: 250px;
+    height: 60px;
+
+    background: #F89B1A;
+    border-radius: 3px;      
+    text-align: center;
+
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .col-login, .textAreaLogin{
+      width: 90%;
+      margin-top: 0;
+    }
+}

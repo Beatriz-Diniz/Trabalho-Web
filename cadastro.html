@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content = "width=device-width">
+  <title>Pet Shop Cadastro</title>
+  <link href = "style.css" rel = "stylesheet" type = "text/css" />
+</head>
+
+<body style="background-color: #ECECEC;">
+    <!--Importando Script Jquery-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <div class = "conteudo">
+        <!--Barra Menu-->
+        <div class = "menu">
+            <a href = "home.html"><img src = "img\logo.png" height = "34px" width = "151px" style = "margin: 2% 120px;"/></a>
+        </div>
+
+        <!--Pagina Login-->
+        <div class="divCadastro">
+            <div class = "divformCadastro">
+                <form name="formLogin" class = "formLogin">
+                    <div class="row">
+                        <div class="col-login">
+                            <input type="email" id="emailid" placeholder="Digite seu email*" required="required" name="nome" class = "textAreaLogin"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-login">
+                            <input type="text" id="sobrenomeid" placeholder="Sobrenome*" required="required" name="sobrenome" class = "textAreaCadastro"/>
+                            <input type="text" id="nomeid" placeholder="Primeiro Nome*" required="required" name="nome" class = "textAreaCadastro" style="float:left"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-login">
+                            <input type="tel" id="telid" placeholder="Telefone"  name="telefone" class = "textAreaCadastro"/>
+                            <input type="text" id="cpfid" placeholder="CPF*" required="required" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" name="cpf" class = "textAreaCadastro" style="float:left"/>
+                        </div>
+                    </div>
+
+                    <!--Endereço-->
+                    <div class="row">
+                        <div class="col-login">
+                            <input type="text" id="cidade" placeholder="cidade"  required="required" name="cidade" class = "textAreaCadastro"/>
+                            <input type="text" id="cep" placeholder="CEP*" required="required" name="cep" class = "textAreaCadastro" style="float:left"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-login">
+                            <input type="tex" id="bairro" placeholder="Bairro*"  required="required"name="telefone" class = "textAreaCadastro"/>
+                            <input type="text" id="numero" placeholder="Número*" required="required" name="cpf" class = "textAreaCadastro" style="float:left"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-login">
+                            <input type="tex" id="logradouro" placeholder="Logradouro*" required="required" name="nome" class = "textAreaLogin"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-login">
+                            <input type="tex" id="destinatario" placeholder="Destinátrio*"  required="required" name="telefone" class = "textAreaCadastro"/>
+                            <input type="text" id="complementp" placeholder="Complemento" name="cpf" class = "textAreaCadastro" style="float:left"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-login">
+                            <input type="password" id="password" placeholder="Criar uma senha*" required="required" name="password" class = "textAreaLogin inputsenha"></input>
+                            <img src = "img\eye.svg" alt = "mostrarsenha" class = "mostrarSenha"></img>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-login">
+                            <button class = "buttonEntrar" onclick="Cadastrar()">Cadastrar</button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-login">
+                            <button class = "buttonVoltar"><a href = "home.html" class="voltar">VOLTAR</a></button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div class = "imgLogin">
+                <img src = "img\image 10.png" alt = "CachorroLogin"></img>
+            </div>
+        </div>
+    </div>
+    <script src = "script.js"></script>
+</body>
+
+</html>
