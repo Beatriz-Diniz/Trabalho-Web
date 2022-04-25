@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content = "width=device-width">
+  <title>Pet Shop LoginAdm</title>
+  <link href = "style.css" rel = "stylesheet" type = "text/css" />
+</head>
+
+<body>
+    <div class = "conteudo">
+        <!--Barra Menu-->
+        <div class = "menu">
+            <a href = "home.html"><img src = "img\logo.png" height = "34px" width = "151px" style = "margin: 2% 120px;"/></a>
+        </div>
+
+        <div class = "divLoginAdmnistrador">
+            <div class = "divSairConta">
+                <a href = "home.html">Sair da conta</a>
+            </div>
+
+            <!--Barra Menus-->
+            <div class = "menusAdm">
+                <div>Minha conta</div>
+                <a href = "#nda"><img src = "img\image 11.png" class = "menuAdmImg"/></a>
+                <a href = "#ndb"><img src = "img\image 12.png" class = "menuAdmImg"/></a>
+                <a href = "#ndc"><img src = "img\image 13.png" class = "menuAdmImg"/></a>
+                <a href = "#ndc"><img src = "img\image 14.png" class = "menuAdmImg"/></a>
+            </div>
+
+            <div class = "textAdm">
+                <span style = "font-weight: 700;">Dados Pessoais</span><br>
+                <span>Mantenha seus dados pessoais sempre atualizados</span>
+            </div>
+
+            <!--Dados Adm-->
+            <div class = "formDadosAdm">
+                <form name="formContato" class = "formContato">
+                    <div class="row">
+                      <div class="col-DadosAdm">
+                        <input type="text" id="sobrenomeidEd" placeholder="Sobrenome*" value = "Alberto" required="required" name="sobrenome" class = "textAreaCadastro" disabled/>
+                        <input type="text" id="nomeidEd" placeholder="Primeiro Nome*" value = "Flavio" required="required" name="nome" class = "textAreaCadastro" style="float:left" disabled/>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-DadosAdm">
+                        <input type="email" id="emailidEd" placeholder="Digite seu email*" value = "flavioalberto@4patas.com.br" required="required" name="nome" class = "textAreaLogin" disabled/>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-DadosAdm">
+                            <input type="tel" id="telidEd" placeholder="Telefone" value = "(11) 99999-9999"  name="telefone" class = "textAreaCadastro" disabled/>
+                            <input type="text" id="cpfidEd" placeholder="CPF*" value = "123.456.789-00" required="required" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" name="cpf" class = "textAreaCadastro" style="float:left" disabled/>
+                        </div>
+                      </div>
+                    
+                    <div class="row">
+                      <div class="col-DadosAdm">
+                        <input type="tex" id="logradouroEd" placeholder="Logradouro*" value = "Rua Mirassol, 4000 Jardim Pinheiros - Embu das Artes/SP  - 06835-030" required="required" name="nome" class = "textAreaLogin" disabled/>
+                      </div>
+                    </div>
+
+                    
+                </form>
+                <div class="row">
+                    <button onclick="editar()" class="editar inputTextArea">Editar informações</button>
+                </div>
+                <div class="row">
+                    <button style = "display: none;" onclick="salvar()" id="botaoSalvarEd" class="editar inputTextArea">Salvar</button>
+                </div>
+            </div>
+        </div>
+        
+        
+
+    </div>
+    <script src = "script.js"></script>
+</body>
+
+</html>
