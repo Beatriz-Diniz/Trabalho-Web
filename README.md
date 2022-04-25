@@ -21,7 +21,7 @@
    * Realizar compra
    * Buscar produto
  * Diagrama de navegação
- * ![Diagrama](https://user-images.githubusercontent.com/64448792/165006526-8f8e9e10-5033-4cc9-8025-c617cbe0bd1c.png)
+  ![Diagrama](https://user-images.githubusercontent.com/64448792/165006526-8f8e9e10-5033-4cc9-8025-c617cbe0bd1c.png)
 # Comentários sobre o código
 
 # Plano de testes
