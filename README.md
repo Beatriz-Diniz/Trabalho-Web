@@ -31,5 +31,5 @@
 # Comentários
 # Grupo 32
 Beatriz Aparecida Diniz NUSP: 11925430 <br>
-Luis Otavio Machado Ferreira NUSP: <br>
-Leandro Sena Silva NUSP: <br>
+Luis Otavio Machado Ferreira NUSP: 8988296 <br>
+Leandro Sena Silva NUSP: 9293060 <br>
